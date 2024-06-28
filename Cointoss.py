@@ -8,6 +8,9 @@ def toss_coin():
 heads_count = 0
 tails_count = 0
 
+user_name = input("Who are you?\n> ")
+print(f"Hello, {user_name}!")
+
 # Simulate three rounds of coin tossing
 print("Tossing a coin...")
 for round in range(1, 4):
